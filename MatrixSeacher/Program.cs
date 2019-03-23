@@ -33,7 +33,7 @@ namespace MatrixSeacher
             double target = double.Parse(Console.ReadLine());
             double eps = 0.01;
 
-            Console.Write("enter epsilant (or not): ");
+            Console.Write("enter epsilon (or not): ");
             double.TryParse(Console.ReadLine(), out eps);
 
             int count = countNumber(res, target, eps);
